@@ -19,7 +19,7 @@ body {
     background: white;
     border-radius: 20px;
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
-    display: flexbox;
+    display: flex;
     overflow: hidden;
 }
 
@@ -30,7 +30,6 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    float: left;
 }
 
 .signin-form {
@@ -39,11 +38,11 @@ body {
 }
 
 .signin-form h1 {
-    font-size: 32px;
+    font-size: 28px;
     font-weight: bold;
     color: #333;
-    margin-bottom: 40px;
-    text-align: left;
+    margin-bottom: 30px;
+    text-align: center;
 }
 
 .input-group {
@@ -141,7 +140,6 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    float: right;
 }
 
 .welcome-content {
@@ -189,20 +187,9 @@ body {
     .signin-section,
     .welcome-section {
         width: 100%;
-        float: none;
     }
     
     .welcome-section {
         height: 200px;
     }
-}
-
-.container {
-    display: flex;
-}
-
-.signin-section,
-.welcome-section {
-    flex: 1;
-    float: none;
 }
